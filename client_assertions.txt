@@ -1,0 +1,21 @@
+----- 23/05/2021 18:57:38 - Admin (127.0.0.1) -----
+Debug Assertion 8.60 Objects.cpp 277
+Sun May 23 18:57:15 2021
+Graphic Engine: OpenGL (1)
+Operating System: Windows Vista Family in BRA
+Processor: Intel CORE I3-6
+Video Card: NVIDIA GeForce GTX 750 TI
+Last Packet Types: 100 010 031 100 020 109 109 131 109 109
+Last Packet: 010 000 000 000 016 050 000 001 100 141 005 047 004 007 201 059
+Player Name: Test (SNS)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 100) (MainWindow = 47094640), reason:
+Communication.cpp 1681: exception occurred (PlayerX = 1421) (PlayerY = 1071), reason:
+Communication.cpp 1659: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1638: exception occurred (Type = 15305) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 15305) (Flag = 10), reason:
+Objects.cpp 277: assertion failed (Type = 15305) (ObjectProperties->high() = 15064), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Comment: 

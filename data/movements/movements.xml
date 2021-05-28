@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movements>
+	<movevent event="DeEquip" itemid="13603" slot="head" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="13603" slot="head" function="onEquipItem" />
+
+	<movevent event="DeEquip" itemid="13604" slot="armor" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="13604" slot="armor" function="onEquipItem" />
+
+	<movevent event="DeEquip" itemid="13605" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="13605" slot="legs" function="onEquipItem" />
+
+	<movevent event="DeEquip" itemid="13606" slot="feet" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="13606" slot="feet" function="onEquipItem" />+
+
+    <movevent event="StepIn" itemid="460" script="stairs_down.lua" />
+    <movevent event="StepIn" itemid="14568" script="stairs_up.lua" />
+</movements>

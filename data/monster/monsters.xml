@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+    <!-- Tutorial -->
+    <monster name="Bee" file="Tutorial/bee.xml" />
+    <monster name="Gamakichi" file="Tutorial/gamakichi.xml" />
+    <monster name="Lizard" file="Tutorial/lizard.xml" />
+    <monster name="Ninja" file="Tutorial/ninja.xml" />
+    <monster name="Ninja2" file="Tutorial/ninja2.xml" />
+    <monster name="Shark" file="Tutorial/shark.xml" />
+    <monster name="Snake" file="Tutorial/snake.xml" />
+
+    <!-- Konoha -->
+    <monster name="Red Samurai" file="Konoha/red_samurai.xml" />
+    <monster name="Being" file="Konoha/being.xml" />
+    <monster name="Dragon-fly" file="Konoha/dragon-fly.xml" />
+    <monster name="Lancer" file="Konoha/lancer.xml" />
+    <monster name="Turtle" file="Konoha/turtle.xml" />
+    <monster name="Tiger" file="Konoha/tiger.xml" />
+    <monster name="Lion" file="Konoha/lion.xml" />
+    <monster name="Mountain Thief" file="Konoha/mountain_thief.xml" />
+    <monster name="Rock" file="Konoha/rock.xml" />
+    <monster name="Invocation" file="Konoha/invocation.xml" />
+    <monster name="Forest Guard" file="Konoha/forest_guard.xml" />
+    <monster name="Ossudo" file="Konoha/ossudo.xml" />
+    <monster name="Hunchback" file="Konoha/Hunchback.xml" />
+    <monster name="Forest Soldier" file="Konoha/forest_soldier.xml" />
+    <monster name="Swordsman" file="Konoha/swordsman.xml" />
+    <monster name="Raiton Shinobi" file="Konoha/raiton_shinobi.xml" />
+    <monster name="Chicken" file="Konoha/chicken.xml" />
+    <monster name="Elephant" file="Konoha/elephant.xml" />
+    <monster name="Boxer" file="Konoha/boxer.xml" />
+    <monster name="Bakaroth" file="Konoha/bakaroth.xml" />
+    <monster name="Pigeon" file="Konoha/pigeon.xml" />
+    <monster name="Flying Pigeon" file="Konoha/pigeon_fly.xml" />
+
+	<!-- Suna -->
+    <monster name="Merchant" file="Suna/merchant.xml" />
+    <monster name="Flop" file="Suna/flop.xml" />
+    <monster name="Sandman" file="Suna/sandman.xml" />
+    <monster name="Giant Snakes" file="Suna/giant_snakes.xml" />
+    <monster name="Foreign" file="Suna/foreign.xml" />
+    <monster name="Sandjinn" file="Suna/sandjinn.xml" />
+    <monster name="Scorpion" file="Suna/scorpion.xml" />
+    <monster name="Blue Bird" file="Suna/blue_bird.xml" />
+    <monster name="Horus" file="Suna/horus.xml" />
+    <monster name="Golden Mummy" file="Suna/golden_mummy.xml" />
+</monsters>

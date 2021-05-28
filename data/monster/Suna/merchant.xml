@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Merchant" nameDescription="a Merchant" race="blood" experience="100000" speed="400" manacost="390">
+	<health now="35000" max="35000" />
+	<look type="214" head="113" body="120" legs="95" feet="115" corpse="11236" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-200" max="-250" />
+        <attack name="earth_punch" interval="1000" range="1" min="-100" max="-150" chance="20" />
+
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element physicalPercent="-5" />
+		<element deathPercent="-5" />
+	</elements>
+	<voices interval="3000" chance="20">
+		<voice sentence="Come to FIGHT!!" />
+	</voices>
+	<loot>
+	</loot>
+</monster>

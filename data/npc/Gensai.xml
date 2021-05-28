@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gensai" script="gensai.lua" walkinterval="4000" floorchange="2">
+	<look type="559" />
+</npc>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<!--########################################-->
+<!-- World -->
+<!--########################################-->
+	<item id="15410" article="a" name="chest" />
+
+	<item id="5543" article="a" name="rope" />
+
+	<item id="12727" article="a" name="Gensai's Sword" />
+
+	<item id="3324" article="a" name="pitfall">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="1387" article="a" name="portal">
+		<attribute key="type" value="teleport" />
+		<attribute key="effect" value="teleport" />
+	</item>
+
+    <item id="11759" article="a" name="portal">
+		<attribute key="type" value="teleport" />
+		<attribute key="effect" value="teleport" />
+	</item>
+
+    <item id="11757" article="a" name="portal">
+		<attribute key="type" value="teleport" />
+		<attribute key="effect" value="teleport" />
+	</item>
+
+    <item id="16569" article="a" name="portal">
+		<attribute key="type" value="teleport" />
+		<attribute key="effect" value="teleport" />
+	</item>
+
+	<item fromid="369" toid="370" article="a" name="trapdoor">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="11236" article="a" name="dead creature">
+		<attribute key="weight" value="1000"/>
+		<attribute key="corpseType" value="blood"/>
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="25" />
+		<attribute key="containerSize" value="4"/>
+	</item>
+
+	<item id="2016" article="a" name="blood">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="33" />
+	</item>
+
+    <item id="2019" article="a" name="blood">
+		<attribute key="decayTo" value="2020" />
+		<attribute key="duration" value="20" />
+	</item>
+
+    <item id="2020" article="a" name="blood">
+		<attribute key="decayTo" value="2021" />
+		<attribute key="duration" value="18" />
+	</item>
+
+    <item id="2021" article="a" name="blood">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="16" />
+	</item>
+
+    <item id="15984" name="grass"/>
+    <item id="15986" name="grass"/>
+    <item fromid="16023" toid="16035" name="grass"/>
+    <item fromid="6216" toid="6219" name="grass"/>
+
+    <item fromid="2697" toid="2720" article="a" name="tree"/>
+    <item fromid="13044" toid="13058" article="a" name="tree"/>
+
+    <item fromid="2777" toid="2778" article="a" name="rock"/>
+    <item fromid="3615" toid="3670" article="a" name="rock"/>
+    <item fromid="5619" toid="5624" article="a" name="rock"/>
+    <item fromid="3610" toid="3614" article="a" name="bunch of rocks"/>
+
+    <item fromid="15934" toid="15941" article="a" name="bunch of flowers"/>
+
+    <item fromid="8011" toid="8014" article="a" name="bouquet of flowers"/>
+
+    <item id="3139" article="a" name="wood floor"/>
+<!--########################################-->
+<!-- Ladder, Ramp, Stairs -->
+<!--########################################-->
+	<item id="8599" article="a" name="ladder" />
+
+    <item id="16570" article="a" name="ladder" />
+
+	<item id="3137" name="ladder">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="1393" article="a" name="ramp" />
+
+	<item id="1394" article="a" name="ramp">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+    <item id="460" article="a" name="stairs" />
+    <item id="14803" article="a" name="stairs" />
+
+	<item id="1395" article="a" name="ramp" />
+
+	<item id="3688" name="stone stairs">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="14052" name="stone stairs">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="16037" name="wooden stairs">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="16036" article="a" name="wooden stairs">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+    	<item id="16588" name="wooden stairs">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="16587" article="a" name="wooden stairs">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item fromid="3219" toid="3220" name="stairs">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="459" name="stairs">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="9573" article="a" name="ramp">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item id="9574" name="stairs">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="3679" article="a" name="ramp">
+		<attribute key="floorchange" value="east" />
+	</item>
+
+	<item id="3680" article="a" name="ramp" />
+
+	<item id="3681" article="a" name="ramp">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="3682" article="a" name="ramp" />
+
+	<item id="3683" article="a" name="ramp">
+		<attribute key="floorchange" value="south" />
+	</item>
+
+    	<item id="1402" article="a" name="ramp">
+		<attribute key="floorchange" value="south" />
+	</item>
+
+    <item id="3684" article="a" name="ramp" />
+
+	<item id="3685" article="a" name="ramp">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item id="3686" article="a" name="ramp" />
+
+	<item id="3687" name="stone stairs">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item id="1388" article="a" name="ramp">
+		<attribute key="floorchange" value="east" />
+	</item>
+
+	<item id="1389" article="a" name="ramp" />
+
+    <item id="8580" article="a" name="manhole" />
+
+	<item id="1390" article="a" name="ramp">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="1391" article="a" name="ramp" />
+
+	<item id="1392" article="a" name="ramp">
+		<attribute key="floorchange" value="south" />
+	</item>
+
+	<item id="1396" name="wooden stairs">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item fromid="410" toid="411" name="stairs">
+		<attribute key="floorchange" value="down" />
+	</item>
+
+	<item id="5259" name="stairs">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item id="5260" name="stairs">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+	<item id="15768" name="stairs">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+	<item id="15766" name="stairs">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+    <item id="1404" article="a" name="ramp">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+    <item id="1400" article="a" name="ramp">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+    <item id="17022" article="a" name="ramp">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+    <item id="17018" article="a" name="ramp">
+		<attribute key="floorchange" value="south" />
+	</item>
+
+    <item id="17221" article="a" name="ramp">
+		<attribute key="floorchange" value="west" />
+    </item>
+
+    <item id="17231" article="a" name="ramp">
+		<attribute key="floorchange" value="east" />
+	</item>
+
+<!--########################################-->
+<!-- Items -->
+<!--########################################-->
+	<item id="14163" article="a" name="Backpack">
+		<attribute key="weight" value="800" />
+		<attribute key="containerSize" value="20" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+
+	<item id="13603" article="a" name="Bandit Hat">
+		<attribute key="weight" value="25" />
+		<attribute key="armor" value="5" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="manaGain" value="25" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="slotType" value="head" />
+		<attribute key="description" value="Health 25/s an Chakra 25/s" />
+	</item>
+
+	<item id="13604" article="a" name="Bandit Coat">
+		<attribute key="weight" value="25" />
+		<attribute key="armor" value="5" />
+		<attribute key="healthGain" value="100" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="manaGain" value="100" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="slotType" value="body" />
+		<attribute key="description" value="Health 100/s an Chakra 100/s" />
+	</item>
+
+	<item id="13605" article="a" name="Bandit Legs">
+		<attribute key="weight" value="25" />
+		<attribute key="armor" value="5" />
+		<attribute key="healthGain" value="50" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="manaGain" value="50" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="slotType" value="legs" />
+		<attribute key="description" value="Health 50/s an Chakra 50/s" />
+	</item>
+
+	<item id="13606" article="a" name="Bandit Boots">
+		<attribute key="weight" value="25" />
+		<attribute key="armor" value="5" />
+		<attribute key="healthGain" value="50" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="manaGain" value="50" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="description" value="Health 50/s an Chakra 50/s" />
+	</item>
+
+	<item id="12716" article="a" name="Kunai">
+		<attribute key="weight" value="100" />
+		<attribute key="attack" value="10" />
+		<attribute key="weaponType" value="club" />
+	</item>
+
+	<item id="12736" article="a" name="Shuriken">
+		<attribute key="weight" value="100" />
+		<attribute key="attack" value="10" />
+		<attribute key="weaponType" value="distance" />
+        <attribute key="hitChance" value="100" />
+		<attribute key="range" value="7" />
+	</item>
+<!--########################################-->
+<!-- Doors -->
+<!--########################################-->
+	<item id="1227" article="a" name="closed door">
+		<attribute key="type" value="door" />
+		<attribute key="blockprojectile" value="1" />
+	</item>
+
+	<item id="1229" article="a" name="closed door">
+		<attribute key="type" value="door" />
+		<attribute key="blockprojectile" value="1" />
+	</item>
+
+	<item id="1228" article="an" name="open door">
+		<attribute key="type" value="door" />
+	</item>
+
+	<item id="1230" article="an" name="open door">
+		<attribute key="type" value="door" />
+	</item>
+
+	<item id="9283" article="a" name="closed door">
+		<attribute key="type" value="door" />
+		<attribute key="blockprojectile" value="1" />
+	</item>
+
+	<item id="9281" article="a" name="closed door">
+		<attribute key="type" value="door" />
+		<attribute key="blockprojectile" value="1" />
+	</item>
+
+	<item id="9284" article="an" name="open door">
+		<attribute key="type" value="door" />
+	</item>
+
+	<item id="9282" article="an" name="open door">
+		<attribute key="type" value="door" />
+	</item>
+</items>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="Varios Bandits e Bees atacaram konoha, vamos salvar a vila!!" />
+
+	<areaspawn delay="2000" fromx="1238" fromy="1043" fromz="7" tox="1261" toy="1055" toz="7">
+		<monster name="Bandit" amount="50" />
+	</areaspawn>
+
+	<singlespawn delay="2000" name="Bee" x="1229" y="1048" z="7" />
+	<singlespawn delay="10000" name="Bee" x="1237" y="1029" z="7" />
+</raid>

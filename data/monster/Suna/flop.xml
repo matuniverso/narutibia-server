@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Flop" nameDescription="a Flop" race="blood" experience="5000" speed="350" manacost="390">
+	<health now="3000" max="3000" />
+	<look type="633" head="113" body="120" legs="95" feet="115" corpse="11236" />
+	<targetchange interval="0" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1800" min="-300" max="-350" />
+	</attacks>
+	<defenses armor="10" defense="10" />
+	<elements>
+		<element physicalPercent="-5" />
+		<element deathPercent="-5" />
+	</elements>
+	<voices interval="3000" chance="20">
+		<voice sentence="Buzzz! Bzzz! Dzzzt!" />
+	</voices>
+	<loot>
+	</loot>
+</monster>
