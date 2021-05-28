@@ -1,7 +1,4 @@
-SPECIAL_FOODS = {
-	[9992] = {"Gulp."}, [9993] = {"Chomp."}, [9994] = {"Chomp."}, [9995] = {"Chomp."}, [9997] = {"Yum."},
-	[9998] = {"Munch."}, [9999] = {"Chomp."}, [10000] = {"Mmmm."}, [10001] = {"Smack."}
-}
+SPECIAL_FOODS = {[9992] = {"Gulp."}}
 
 function destroyItem(player, target, toPosition)
 	if type(target) ~= "userdata" or not target:isItem() then

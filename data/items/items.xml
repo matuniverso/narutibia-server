@@ -15,22 +15,22 @@
 
 	<item id="1387" article="a" name="portal">
 		<attribute key="type" value="teleport" />
-		<attribute key="effect" value="teleport" />
+		<!-- <attribute key="effect" value="teleport" /> -->
 	</item>
 
     <item id="11759" article="a" name="portal">
 		<attribute key="type" value="teleport" />
-		<attribute key="effect" value="teleport" />
+		<!-- <attribute key="effect" value="teleport" /> -->
 	</item>
 
     <item id="11757" article="a" name="portal">
 		<attribute key="type" value="teleport" />
-		<attribute key="effect" value="teleport" />
+		<!-- <attribute key="effect" value="teleport" /> -->
 	</item>
 
     <item id="16569" article="a" name="portal">
 		<attribute key="type" value="teleport" />
-		<attribute key="effect" value="teleport" />
+		<!-- <attribute key="effect" value="teleport" /> -->
 	</item>
 
 	<item fromid="369" toid="370" article="a" name="trapdoor">

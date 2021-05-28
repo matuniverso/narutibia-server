@@ -1,9 +1,6 @@
 function onLogin(player)
 	local loginStr = "Welcome to " .. configManager.getString(configKeys.SERVER_NAME) .. "!"
-	if player:getLastLoginSaved() <= 0 then
-		loginStr = loginStr .. " Please choose your outfit."
-		player:sendOutfitWindow()
-	else
+	if player:getLastLoginSaved() > 0 then
 		if loginStr ~= "" then
 			player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 		end
