@@ -632,12 +632,14 @@ bool Monster::selectTarget(Creature* creature)
 		return false;
 	}
 
-	if (isHostile() || isSummon()) {
-		if (setAttackedCreature(creature) && !isSummon()) {
-			g_dispatcher.addTask(createTask(std::bind(&Game::checkCreatureAttack, &g_game, getID())));
-		}
-	}
-	return setFollowCreature(creature);
+	if (isHostileOnAttack() && getHealth() >= getMaxHealth()) {
+            return false;
+    } else if (isHostile() || isSummon()) {
+        if (setAttackedCreature(creature) && !isSummon()) {
+            g_dispatcher.addTask(createTask(std::bind(&Game::checkCreatureAttack, &g_game, getID())));
+        }
+    }
+    return setFollowCreature(creature);
 }
 
 void Monster::setIdle(bool idle)
