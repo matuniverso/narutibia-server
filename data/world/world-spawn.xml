@@ -55,7 +55,7 @@
 		<monster name="Horus" x="0" y="0" z="4" spawntime="30" />
 	</spawn>
 	<spawn centerx="1228" centery="1350" centerz="4" radius="1">
-		<monster name="Horus" x="0" y="0" z="4" spawntime="30" />
+		<monster name="Horus" x="1" y="0" z="4" spawntime="30" />
 	</spawn>
 	<spawn centerx="1235" centery="1351" centerz="4" radius="1">
 		<monster name="Horus" x="0" y="0" z="4" spawntime="30" />
@@ -336,13 +336,16 @@
 	<spawn centerx="1253" centery="1331" centerz="5" radius="1">
 		<monster name="Horus" x="0" y="0" z="5" spawntime="30" />
 	</spawn>
+	<spawn centerx="1234" centery="1332" centerz="5" radius="1">
+		<monster name="Horus" x="0" y="0" z="5" spawntime="30" />
+	</spawn>
 	<spawn centerx="1249" centery="1333" centerz="5" radius="1">
 		<monster name="Horus" x="0" y="0" z="5" spawntime="30" />
 	</spawn>
 	<spawn centerx="1259" centery="1333" centerz="5" radius="1">
 		<monster name="Horus" x="0" y="0" z="5" spawntime="30" />
 	</spawn>
-	<spawn centerx="1233" centery="1336" centerz="5" radius="1">
+	<spawn centerx="1236" centery="1336" centerz="5" radius="1">
 		<monster name="Horus" x="0" y="0" z="5" spawntime="30" />
 	</spawn>
 	<spawn centerx="1268" centery="1337" centerz="5" radius="1">
@@ -1292,12 +1295,6 @@
 	<spawn centerx="1413" centery="1015" centerz="7" radius="1">
 		<monster name="Pigeon" x="0" y="-1" z="7" spawntime="30" />
 	</spawn>
-	<spawn centerx="984" centery="1016" centerz="7" radius="9">
-		<monster name="Turtle" x="0" y="-2" z="7" spawntime="20" />
-		<monster name="Turtle" x="-2" y="2" z="7" spawntime="20" />
-		<monster name="Turtle" x="-7" y="3" z="7" spawntime="20" />
-		<monster name="Turtle" x="5" y="6" z="7" spawntime="20" />
-	</spawn>
 	<spawn centerx="1523" centery="1017" centerz="7" radius="10">
 		<monster name="Red Samurai" x="1" y="-4" z="7" spawntime="35" />
 		<monster name="Red Samurai" x="9" y="-4" z="7" spawntime="35" />
@@ -1324,10 +1321,6 @@
 	<spawn centerx="1439" centery="1022" centerz="7" radius="1">
 		<monster name="Flying Pigeon" x="0" y="-1" z="7" spawntime="30" />
 	</spawn>
-	<spawn centerx="972" centery="1023" centerz="7" radius="9">
-		<monster name="Turtle" x="-5" y="2" z="7" spawntime="20" />
-		<monster name="Turtle" x="6" y="6" z="7" spawntime="20" />
-	</spawn>
 	<spawn centerx="1038" centery="1023" centerz="7" radius="1">
 		<monster name="Bee" x="-1" y="-1" z="7" spawntime="20" />
 	</spawn>
@@ -1343,11 +1336,6 @@
 	<spawn centerx="1065" centery="1024" centerz="7" radius="1">
 		<monster name="Bee" x="0" y="1" z="7" spawntime="20" />
 	</spawn>
-	<spawn centerx="992" centery="1026" centerz="7" radius="9">
-		<monster name="Turtle" x="3" y="-7" z="7" spawntime="20" />
-		<monster name="Turtle" x="4" y="2" z="7" spawntime="20" />
-		<monster name="Turtle" x="-1" y="9" z="7" spawntime="-2102196224" />
-	</spawn>
 	<spawn centerx="1049" centery="1027" centerz="7" radius="1">
 		<monster name="Bee" x="0" y="0" z="7" spawntime="20" />
 	</spawn>
@@ -1359,11 +1347,6 @@
 	</spawn>
 	<spawn centerx="1071" centery="1028" centerz="7" radius="1">
 		<monster name="Bee" x="0" y="0" z="7" spawntime="20" />
-	</spawn>
-	<spawn centerx="957" centery="1029" centerz="7" radius="9">
-		<monster name="Turtle" x="4" y="-4" z="7" spawntime="20" />
-		<monster name="Turtle" x="3" y="1" z="7" spawntime="20" />
-		<monster name="Turtle" x="-2" y="6" z="7" spawntime="20" />
 	</spawn>
 	<spawn centerx="1013" centery="1029" centerz="7" radius="1">
 		<monster name="Bee" x="1" y="1" z="7" spawntime="20" />
@@ -1403,10 +1386,6 @@
 	<spawn centerx="1018" centery="1035" centerz="7" radius="1">
 		<monster name="Bee" x="1" y="-1" z="7" spawntime="20" direction="2" />
 	</spawn>
-	<spawn centerx="975" centery="1036" centerz="7" radius="1">
-		<monster name="Turtle" x="0" y="0" z="7" spawntime="20" />
-	</spawn>
-	<spawn centerx="991" centery="1036" centerz="7" radius="1" />
 	<spawn centerx="1413" centery="1036" centerz="7" radius="1">
 		<monster name="Pigeon" x="0" y="0" z="7" spawntime="30" />
 	</spawn>
@@ -1431,11 +1410,6 @@
 	<spawn centerx="1507" centery="1040" centerz="7" radius="5">
 		<monster name="Swordsman" x="-4" y="-2" z="7" spawntime="30" />
 	</spawn>
-	<spawn centerx="952" centery="1043" centerz="7" radius="9">
-		<monster name="Turtle" x="-3" y="-4" z="7" spawntime="20" />
-		<monster name="Turtle" x="-3" y="4" z="7" spawntime="20" />
-		<monster name="Turtle" x="3" y="6" z="7" spawntime="20" />
-	</spawn>
 	<spawn centerx="1500" centery="1046" centerz="7" radius="5">
 		<monster name="Swordsman" x="-4" y="-5" z="7" spawntime="30" />
 		<monster name="Swordsman" x="0" y="-5" z="7" spawntime="30" />
@@ -1445,11 +1419,6 @@
 	<spawn centerx="1490" centery="1047" centerz="7" radius="5" />
 	<spawn centerx="1553" centery="1047" centerz="7" radius="1">
 		<monster name="Mountain Thief" x="0" y="1" z="7" spawntime="30" />
-	</spawn>
-	<spawn centerx="984" centery="1048" centerz="7" radius="9">
-		<monster name="Turtle" x="-2" y="-7" z="7" spawntime="20" />
-		<monster name="Turtle" x="0" y="1" z="7" spawntime="20" />
-		<monster name="Turtle" x="-9" y="8" z="7" spawntime="20" />
 	</spawn>
 	<spawn centerx="1386" centery="1048" centerz="7" radius="5">
 		<monster name="Elephant" x="-1" y="-2" z="7" spawntime="30" />
@@ -1486,19 +1455,11 @@
 	</spawn>
 	<spawn centerx="1435" centery="1054" centerz="7" radius="5" />
 	<spawn centerx="1471" centery="1054" centerz="7" radius="5" />
-	<spawn centerx="972" centery="1055" centerz="7" radius="9">
-		<monster name="Turtle" x="0" y="3" z="7" spawntime="20" />
-	</spawn>
 	<spawn centerx="1551" centery="1055" centerz="7" radius="1">
 		<monster name="Mountain Thief" x="-1" y="0" z="7" spawntime="30" />
 	</spawn>
 	<spawn centerx="1410" centery="1056" centerz="7" radius="5" />
 	<spawn centerx="1441" centery="1056" centerz="7" radius="5" />
-	<spawn centerx="955" centery="1057" centerz="7" radius="9">
-		<monster name="Turtle" x="7" y="-5" z="7" spawntime="20" />
-		<monster name="Turtle" x="-3" y="-2" z="7" spawntime="20" />
-		<monster name="Turtle" x="5" y="1" z="7" spawntime="20" />
-	</spawn>
 	<spawn centerx="1555" centery="1057" centerz="7" radius="1">
 		<monster name="Mountain Thief" x="0" y="-1" z="7" spawntime="30" />
 	</spawn>

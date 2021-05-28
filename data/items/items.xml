@@ -243,6 +243,30 @@
 		<attribute key="floorchange" value="east" />
 	</item>
 
+    <item id="17230" article="a" name="ramp">
+		<attribute key="floorchange" value="south" />
+	</item>
+
+    <item id="17219" article="a" name="ramp">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+     <item id="17092" article="a" name="ramp">
+		<attribute key="floorchange" value="north" />
+	</item>
+
+      <item id="17088" article="a" name="ramp">
+		<attribute key="floorchange" value="west" />
+	</item>
+
+      <item id="17090" article="a" name="ramp">
+		<attribute key="floorchange" value="south" />
+	</item>
+
+      <item id="17086" article="a" name="ramp">
+		<attribute key="floorchange" value="east" />
+	</item>
+
 <!--########################################-->
 <!-- Items -->
 <!--########################################-->
