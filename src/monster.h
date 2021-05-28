@@ -113,7 +113,7 @@ public:
         return mType->info.isHostile;
     }
     bool isHostileOnAttack() const {
-        return mType->isHostileOnAttack;
+        return mType->info.isHostileOnAttack;
     }
     bool canSee(const Position& pos) const override;
     bool canSeeInvisibility() const override {

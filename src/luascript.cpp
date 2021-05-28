@@ -11537,7 +11537,7 @@ int LuaScriptInterface::luaMonsterTypeIsHostileOnAttack(lua_State* L)
     // monsterType:isHostileOnAttack()
     MonsterType* monsterType = getUserdata<MonsterType>(L, 1);
     if (monsterType) {
-        pushBoolean(L, monsterType->isHostileOnAttack);
+        pushBoolean(L, monsterType->info.isHostileOnAttack);
     } else {
         lua_pushnil(L);
     }
