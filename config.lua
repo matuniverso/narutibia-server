@@ -75,18 +75,18 @@ freePremium = false
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 emoteSpells = true
-classicEquipmentSlots = false
-classicAttackSpeed = false
-showScriptsLogInConsole = true
+classicEquipmentSlots = true
+classicAttackSpeed = true
+showScriptsLogInConsole = false
 showOnlineStatusInCharlist = false
 
 -- Server Save
 -- NOTE: serverSaveNotifyDuration in minutes
 serverSaveNotifyMessage = true
 serverSaveNotifyDuration = 5
-serverSaveCleanMap = false
+serverSaveCleanMap = true
 serverSaveClose = false
-serverSaveShutdown = true
+serverSaveShutdown = false
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
@@ -116,5 +116,5 @@ startupDatabaseOptimization = false
 -- Status server information
 ownerName = ""
 ownerEmail = ""
-url = "https://otland.net/"
-location = "Sweden"
+url = "https://shinobinosekai.com"
+location = "Brasil"
