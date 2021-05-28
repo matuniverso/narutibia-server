@@ -8,7 +8,7 @@ function onCastSpell(creature, variant)
 	end
 
     local pos = creature:getPosition()
-	local summon = Game.createMonster(monster, pos, true)
+	local summon = Game.createMonster(monster, pos)
 	if not summon then
 		return false
 	end

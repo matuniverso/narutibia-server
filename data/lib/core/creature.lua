@@ -101,11 +101,10 @@ function Creature:addSummon(monster)
 	end
 
 	summon:setTarget(nil)
-	summon:setFollowCreature(nil)
+	summon:setFollowCreature(true)
 	summon:setDropLoot(false)
 	summon:setSkillLoss(false)
 	summon:setMaster(self)
-
 	return true
 end
 
@@ -120,7 +119,6 @@ function Creature:removeSummon(monster)
 	summon:setDropLoot(true)
 	summon:setSkillLoss(true)
 	summon:setMaster(nil)
-
 	return true
 end
 

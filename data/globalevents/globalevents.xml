@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
 	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
-	<globalevent type="record" name="PlayerRecord" script="record.lua" />
-	<globalevent time="09:55:00" name="Server Save" script="serversave.lua" />
+	<globalevent time="06:00:00" name="Server Save" script="serversave.lua" />
 </globalevents>
