@@ -5,7 +5,6 @@
 	<instant name="chakra feet" words="Chakra Feet" level="1" mana="0" selftarget="1" aggressive="0" script="common/chakra_feet.lua"/>
 	<instant name="kunai" words="Throw Kunai" level="1" mana="0" range="7" needtarget="1" blockwalls="1" script="common/throw_kunai.lua"/>
 	<instant name="shuriken" words="Throw Shuriken" level="1" mana="0" range="7" needtarget="1" blockwalls="1" script="common/throw_shuriken.lua"/>
-
     <instant name="area" words="Area" level="1" mana="300" needtarget="0" script="common/area.lua"/>
 	<instant name="kunai explosion" words="Kunai Explosion" level="1" mana="200" range="7" needtarget="1" script="common/kunai_explosion.lua"/>
     <instant name="power up" words="Power Up" level="1" mana="0" selftarget="1" aggressive="0" script="common/power_up.lua"/>
@@ -23,12 +22,12 @@
 	<instant name="triple_green"    words="###10" needtarget="1" script="monster/triple_green.lua"/>
 	<instant name="distance_atkb"   words="###11" needtarget="1" script="monster/distance_atkb.lua"/>
 	<instant name="buff"            words="###12" selftarget="1" aggressive="0" script="monster/buff.lua"/>
-    <instant name="choque_area"   words="###13" needtarget="0" script="monster/choque_area.lua"/>
-    <instant name="triple_fire"    words="###14" needtarget="1" script="monster/triple_fire.lua"/>
-    <instant name="snake_shot"    words="###15" needtarget="1" script="monster/snake_shot.lua"/>
-    <instant name="earth_punch"    words="###16" needtarget="1" script="monster/earth_punch.lua"/>
-    <instant name="rasengann"    words="###17" needtarget="1" script="monster/rasengann.lua"/>
-    <instant name="shadow"    words="###18" needtarget="1" script="monster/shadow.lua"/>
-    <instant name="impact"    words="###19" needtarget="1" script="monster/impact.lua"/>
-    <instant name="gust"    words="###20" needtarget="1" script="monster/gust.lua"/>
+    <instant name="choque_area"     words="###13" needtarget="0" script="monster/choque_area.lua"/>
+    <instant name="triple_fire"     words="###14" needtarget="1" script="monster/triple_fire.lua"/>
+    <instant name="snake_shot"      words="###15" needtarget="1" script="monster/snake_shot.lua"/>
+    <instant name="earth_punch"     words="###16" needtarget="1" script="monster/earth_punch.lua"/>
+    <instant name="rasengann"       words="###17" needtarget="1" script="monster/rasengann.lua"/>
+    <instant name="shadow"          words="###18" needtarget="1" script="monster/shadow.lua"/>
+    <instant name="impact"          words="###19" needtarget="1" script="monster/impact.lua"/>
+    <instant name="gust"            words="###20" needtarget="1" script="monster/gust.lua"/>
 </spells>

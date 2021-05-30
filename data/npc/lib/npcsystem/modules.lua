@@ -161,8 +161,8 @@ if Modules == nil then
 		local outfit = player:getOutfit()
 		local currentOutfit = outfit.lookType
 
-		local duration = 10
-        local speed = 200
+		local duration = 17
+        local speed = 180 
 
 		if player:isPzLocked() then
 			npcHandler:say("Desculpe, você precisa estar fora de batalha para viajar no meu barco.", cid)
@@ -177,7 +177,7 @@ if Modules == nil then
 
         for i = 0, duration do
             addEvent(function ()
-                local pos = Position(1284 - i, 1014, 7)
+                local pos = Position(1286 - i, 1014, 7)
                 player:teleportTo(pos, true)
             end, i * speed)
         end

@@ -38,11 +38,17 @@
 	</item>
 
 	<item id="11236" article="a" name="dead creature">
-		<attribute key="weight" value="1000"/>
 		<attribute key="corpseType" value="blood"/>
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="25" />
 		<attribute key="containerSize" value="4"/>
+	</item>
+
+    <item id="3065" article="a" name="corpse">
+		<attribute key="corpseType" value="blood"/>
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="containerSize" value="10"/>
 	</item>
 
 	<item id="2016" article="a" name="blood">

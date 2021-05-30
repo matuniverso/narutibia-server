@@ -26,7 +26,7 @@ statusProtocolPort = 7171
 maxPlayers = 0
 motd = "Welcome to Shinobi no Sekai!"
 onePlayerOnlinePerAccount = false
-allowClones = true
+allowClones = false
 serverName = "SNS"
 statusTimeout = 5000
 replaceKickOnLogin = true
@@ -59,10 +59,10 @@ checkExpiredMarketOffersEachMinutes = 60
 maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
-mysqlHost = "192.168.0.104"
+mysqlHost = "192.168.0.108"
 mysqlUser = "root"
 mysqlPass = ""
-mysqlDatabase = "game"
+mysqlDatabase = "sns"
 mysqlPort = 3306
 mysqlSock = ""
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Snake" nameDescription="a Snake" race="venom" experience="7500" speed="350" manacost="390">
-	<health now="900" max="900" />
-	<look type="1264" head="113" body="120" legs="95" feet="115" corpse="11236" />
+<monster name="Centipede" nameDescription="a Centipede" race="venom" experience="7500" speed="350" manacost="390">
+	<health now="6000" max="6000" />
+	<look type="239" head="113" body="120" legs="95" feet="115" corpse="11236" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="1" />
@@ -28,7 +28,7 @@
 		<element deathPercent="-5" />
 	</elements>
 	<voices interval="3000" chance="20">
-		<voice sentence="S..SS..S..!" />
+		<voice sentence="Shh..SSh..Sh..!" />
 	</voices>
 	<loot>
 	</loot>

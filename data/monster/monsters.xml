@@ -7,7 +7,7 @@
     <monster name="Ninja" file="Tutorial/ninja.xml" />
     <monster name="Ninja2" file="Tutorial/ninja2.xml" />
     <monster name="Shark" file="Tutorial/shark.xml" />
-    <monster name="Snake" file="Tutorial/snake.xml" />
+    <monster name="Centipede" file="Tutorial/centipede.xml" />
 
     <!-- Konoha -->
     <monster name="Red Samurai" file="Konoha/red_samurai.xml" />
