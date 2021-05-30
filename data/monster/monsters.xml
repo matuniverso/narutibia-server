@@ -22,7 +22,7 @@
     <monster name="Invocation" file="Konoha/invocation.xml" />
     <monster name="Forest Guard" file="Konoha/forest_guard.xml" />
     <monster name="Ossudo" file="Konoha/ossudo.xml" />
-    <monster name="Hunchback" file="Konoha/Hunchback.xml" />
+    <monster name="Hunchback" file="Konoha/hunchback.xml" />
     <monster name="Forest Soldier" file="Konoha/forest_soldier.xml" />
     <monster name="Swordsman" file="Konoha/swordsman.xml" />
     <monster name="Raiton Shinobi" file="Konoha/raiton_shinobi.xml" />

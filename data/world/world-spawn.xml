@@ -893,7 +893,7 @@
 		<monster name="Boxer" x="0" y="0" z="6" spawntime="25" />
 	</spawn>
 	<spawn centerx="1448" centery="1072" centerz="6" radius="1">
-		<npc name="gensai" x="0" y="0" z="6" spawntime="40" />
+		<npc name="Gensai" x="0" y="0" z="6" spawntime="40" />
 	</spawn>
 	<spawn centerx="1428" centery="1073" centerz="6" radius="1">
 		<monster name="Boxer" x="0" y="0" z="6" spawntime="25" />
