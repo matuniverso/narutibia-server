@@ -23,11 +23,15 @@
 static constexpr int32_t NETWORKMESSAGE_MAXSIZE = 24590;
 
 enum MagicEffectClasses : uint16_t {
-	CONST_ME_NONE
+	CONST_ME_NONE,
+    CONST_ME_SEMFIM = 0xFFFE,
+    CONST_ME_LAST = CONST_ME_SEMFIM,
 };
 
 enum ShootType_t : uint16_t {
-	CONST_ANI_NONE
+	CONST_ANI_NONE,
+    CONST_ANT_SEMFIM = 0xFFFE,
+    CONST_ANI_LAST = CONST_ANT_SEMFIM,
 };
 
 enum SpeakClasses : uint8_t {

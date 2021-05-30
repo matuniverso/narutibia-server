@@ -504,9 +504,13 @@ using AmmoTypeNames = std::unordered_map<std::string, Ammo_t>;
 using WeaponActionNames = std::unordered_map<std::string, WeaponAction_t>;
 using SkullNames = std::unordered_map<std::string, Skulls_t>;
 
-MagicEffectNames magicEffectNames = {};
+MagicEffectNames magicEffectNames = {
+    {"semfim", CONST_ME_SEMFIM},
+};
 
-ShootTypeNames shootTypeNames = {};
+ShootTypeNames shootTypeNames = {
+    {"semfim", CONST_ANT_SEMFIM},
+};
 
 CombatTypeNames combatTypeNames = {
 	{COMBAT_PHYSICALDAMAGE, 	"physical"},
