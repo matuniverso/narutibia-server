@@ -1243,6 +1243,9 @@
 	</spawn>
 	<spawn centerx="1573" centery="993" centerz="7" radius="1" />
 	<spawn centerx="1577" centery="994" centerz="7" radius="1" />
+	<spawn centerx="1407" centery="1003" centerz="7" radius="5">
+		<npc name="Anbu" x="2" y="1" z="7" spawntime="25" />
+	</spawn>
 	<spawn centerx="1452" centery="1010" centerz="7" radius="5">
 		<monster name="Flying Pigeon" x="-1" y="-2" z="7" spawntime="60" />
 	</spawn>
@@ -1283,14 +1286,14 @@
 	</spawn>
 	<spawn centerx="1508" centery="1031" centerz="7" radius="5" />
 	<spawn centerx="1516" centery="1031" centerz="7" radius="5" />
-	<spawn centerx="1429" centery="1034" centerz="7" radius="1">
-		<monster name="Flying Pigeon" x="1" y="1" z="7" spawntime="30" />
-	</spawn>
 	<spawn centerx="1495" centery="1034" centerz="7" radius="1">
 		<monster name="Swordsman" x="0" y="0" z="7" spawntime="30" />
 	</spawn>
 	<spawn centerx="1501" centery="1034" centerz="7" radius="1">
 		<monster name="Swordsman" x="0" y="0" z="7" spawntime="30" />
+	</spawn>
+	<spawn centerx="1422" centery="1035" centerz="7" radius="5">
+		<npc name="Anbu" x="1" y="1" z="7" spawntime="25" />
 	</spawn>
 	<spawn centerx="1413" centery="1036" centerz="7" radius="1">
 		<monster name="Pigeon" x="0" y="0" z="7" spawntime="30" />
@@ -1326,17 +1329,14 @@
 	<spawn centerx="1553" centery="1047" centerz="7" radius="1">
 		<monster name="Mountain Thief" x="0" y="1" z="7" spawntime="30" />
 	</spawn>
-	<spawn centerx="1386" centery="1048" centerz="7" radius="5" />
 	<spawn centerx="1548" centery="1048" centerz="7" radius="1">
 		<monster name="Mountain Thief" x="1" y="-1" z="7" spawntime="30" />
 	</spawn>
-	<spawn centerx="1396" centery="1049" centerz="7" radius="5" />
 	<spawn centerx="1481" centery="1050" centerz="7" radius="5">
 		<monster name="Chicken" x="-2" y="-3" z="7" spawntime="30" />
 	</spawn>
 	<spawn centerx="1419" centery="1051" centerz="7" radius="1" />
 	<spawn centerx="1426" centery="1051" centerz="7" radius="5">
-		<monster name="Chicken" x="-1" y="-5" z="7" spawntime="30" />
 		<monster name="Bee" x="-3" y="-2" z="7" spawntime="40" />
 	</spawn>
 	<spawn centerx="1552" centery="1051" centerz="7" radius="1">
