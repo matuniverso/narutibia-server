@@ -17,7 +17,7 @@ function onCastSpell(creature, variant)
     for i = 0, seconds do
         addEvent(function ()
             local pos = creature:getPosition()
-            pos:sendMagicEffect(570)
+            pos:sendMagicEffect(357)
         end, i * 1000)
     end
     return combat:execute(creature, variant)
