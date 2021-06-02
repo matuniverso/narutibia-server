@@ -53,9 +53,7 @@
 	</spawn>
 	<spawn centerx="1427" centery="1041" centerz="4" radius="5">
 		<npc name="Anbu" x="-2" y="-1" z="4" spawntime="25" />
-		<npc name="Anbu" x="4" y="-1" z="4" spawntime="25" />
-		<npc name="Anbu" x="-4" y="0" z="4" spawntime="25" />
-		<npc name="Anbu" x="2" y="0" z="4" spawntime="25" />
+		<npc name="Anbu" x="2" y="-1" z="4" spawntime="25" />
 	</spawn>
 	<spawn centerx="1231" centery="1347" centerz="4" radius="1">
 		<monster name="Horus" x="0" y="0" z="4" spawntime="30" />
@@ -1279,16 +1277,14 @@
 	<spawn centerx="1501" centery="1034" centerz="7" radius="1">
 		<monster name="Swordsman" x="0" y="0" z="7" spawntime="30" />
 	</spawn>
-	<spawn centerx="1422" centery="1035" centerz="7" radius="5" />
-	<spawn centerx="1413" centery="1036" centerz="7" radius="1">
-		<monster name="Pigeon" x="0" y="0" z="7" spawntime="30" />
-	</spawn>
-	<spawn centerx="1416" centery="1036" centerz="7" radius="1" />
 	<spawn centerx="1433" centery="1036" centerz="7" radius="1">
 		<monster name="Pigeon" x="1" y="0" z="7" spawntime="30" />
 	</spawn>
 	<spawn centerx="1489" centery="1036" centerz="7" radius="1">
 		<monster name="Swordsman" x="0" y="0" z="7" spawntime="30" />
+	</spawn>
+	<spawn centerx="1419" centery="1037" centerz="7" radius="1">
+		<monster name="Pigeon" x="-1" y="0" z="7" spawntime="30" />
 	</spawn>
 	<spawn centerx="1495" centery="1038" centerz="7" radius="1">
 		<monster name="Swordsman" x="0" y="0" z="7" spawntime="20" />

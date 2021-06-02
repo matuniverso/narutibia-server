@@ -23,7 +23,7 @@
 	<instant name="distance_atkb"   words="###11" needtarget="1" script="monster/distance_atkb.lua"/>
 	<instant name="buff"            words="###12" selftarget="1" aggressive="0" script="monster/buff.lua"/>
     <instant name="choque_area"     words="###13" needtarget="0" script="monster/choque_area.lua"/>
-    <instant name="triple fire"     words="Triple Fire" level="1" mana="500" range="5" needtarget="1" script="monster/triple_fire.lua"/>
+    <instant name="triple fire"     words="Triple Fire" level="1" mana="500" range="7" needtarget="1" script="monster/triple_fire.lua"/>
     <instant name="snake_shot"      words="###15" needtarget="1" script="monster/snake_shot.lua"/>
     <instant name="earth_punch"     words="###16" needtarget="1" script="monster/earth_punch.lua"/>
     <instant name="rasengann"       words="###17" needtarget="1" script="monster/rasengann.lua"/>
