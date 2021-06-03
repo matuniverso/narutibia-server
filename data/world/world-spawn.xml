@@ -53,7 +53,7 @@
 	</spawn>
 	<spawn centerx="1427" centery="1041" centerz="4" radius="5">
 		<npc name="Anbu" x="-2" y="-1" z="4" spawntime="25" />
-		<npc name="Anbu" x="2" y="-1" z="4" spawntime="25" />
+		<npc name="Anbu" x="1" y="-1" z="4" spawntime="25" />
 	</spawn>
 	<spawn centerx="1231" centery="1347" centerz="4" radius="1">
 		<monster name="Horus" x="0" y="0" z="4" spawntime="30" />
