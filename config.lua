@@ -18,8 +18,8 @@ expFromPlayersLevelRange = 75
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "54.210.174.39"
--- ip = "127.0.0.1"
+-- ip = "54.210.174.39"
+ip = "127.0.0.1"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
@@ -60,9 +60,9 @@ checkExpiredMarketOffersEachMinutes = 60
 maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
-mysqlHost = "54.210.174.39"
-mysqlUser = "sns"
-mysqlPass = "m88970733"
+mysqlHost = "192.168.0.108"
+mysqlUser = "root"
+mysqlPass = ""
 mysqlDatabase = "sns"
 mysqlPort = 3306
 mysqlSock = ""
