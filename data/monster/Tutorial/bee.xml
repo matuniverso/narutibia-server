@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Bee" nameDescription="a Bee" race="venom" experience="5000" speed="330" manacost="390">
-	<health now="3000" max="3000" />
+<monster name="Bee" nameDescription="a Bee" race="venom" experience="250" speed="330" manacost="390">
+	<health now="1500" max="1500" />
 	<look type="1265" head="113" body="120" legs="95" feet="115" corpse="11236" />
 	<targetchange interval="0" chance="0" />
 	<flags>

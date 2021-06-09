@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Centipede" nameDescription="a Centipede" race="venom" experience="2200" speed="350" manacost="390">
-	<health now="4000" max="4000" />
-	<look type="239" head="113" body="120" legs="95" feet="115" corpse="11236" />
-	<targetchange interval="4000" chance="10" />
+<monster name="Ninja" nameDescription="a Ninja" race="blood" experience="3000" speed="400" manacost="390">
+	<health now="8000" max="8000" />
+	<look type="569" head="113" body="120" legs="95" feet="115" corpse="11236" />
+	<targetchange interval="0" chance="0" />
 	<flags>
 		<flag summonable="1" />
 		<flag attackable="1" />
@@ -20,16 +20,14 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="1800" min="-300" max="-330" />
+		<attack name="melee" interval="1000" min="-400" max="-500" />
+		<attack name="cutter_area" interval="1000" chance="25" />
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<elements>
 		<element physicalPercent="-5" />
 		<element deathPercent="-5" />
 	</elements>
-	<voices interval="3000" chance="20">
-		<voice sentence="Shh..SSh..Sh..!" />
-	</voices>
 	<loot>
 	</loot>
 </monster>

@@ -6,7 +6,7 @@
 	<instant name="kunai" words="Throw Kunai" level="1" mana="0" range="7" needtarget="1" blockwalls="1" script="common/throw_kunai.lua"/>
 	<instant name="shuriken" words="Throw Shuriken" level="1" mana="0" range="7" needtarget="1" blockwalls="1" script="common/throw_shuriken.lua"/>
     <instant name="area" words="Area" level="1" mana="300" needtarget="0" script="common/area.lua"/>
-	<instant name="kunai explosion" words="Kunai Explosion" level="1" mana="200" range="7" needtarget="1" script="common/kunai_explosion.lua"/>
+	<instant name="kunai explosion" words="Kunai Explosion" level="1" mana="300" range="7" needtarget="1" script="common/kunai_explosion.lua"/>
     <instant name="power up" words="Power Up" level="1" mana="0" selftarget="1" aggressive="0" script="common/power_up.lua"/>
 
 	<!-- Monsters -->
@@ -30,4 +30,36 @@
     <instant name="shadow"          words="###18" needtarget="1" script="monster/shadow.lua"/>
     <instant name="impact"          words="###19" needtarget="1" script="monster/impact.lua"/>
     <instant name="gust"            words="###20" needtarget="1" script="monster/gust.lua"/>
+
+    <!-- Naruto-->
+    <instant name="rasengan" words="Rasengan" level="15" mana= "300" range="1" needtarget="1" blockwalls="1" script="vocation/naruto/rasengan.lua"/>
+    <instant name="oodama rasengan" words="Oodama Rasengan" level="50" mana="700" range="2" needtarget="1" blockwalls="1" script="vocation/naruto/oodama_rasengan.lua"/>
+    <instant name="tsuin rasengan" words="Tsuin Rasengan" level="30" mana="500" range="2" needtarget="1" blockwalls="1" script="vocation/naruto/tsuin_rasengan.lua"/>
+    <instant name="fuuton rasenshuriken" words="Fuuton Rasenshuriken" level="80" mana="800" range="6" needtarget="1" blockwalls="1" script="vocation/naruto/fuuton_rasenshuriken.lua"/>
+    <instant name="kyuubi chakra" words="Kyuubi Chakra" level="80" mana="100" needtarget="0" blockwalls="0" script="vocation/naruto/kyuubi_chakra.lua"/>
+    <instant name="bijuu dama" words="Bijuu Dama" level="80" mana="800" range="6" needtarget="1" blockwalls="1" script="vocation/naruto/bijuu_dama.lua"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </spells>
+
+

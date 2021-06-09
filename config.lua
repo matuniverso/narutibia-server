@@ -94,7 +94,7 @@ serverSaveShutdown = false
 rateExp = 5
 rateSkill = 3
 rateLoot = 2
-rateMagic = 3
+rateMagic = 100
 rateSpawn = 1
 
 -- Monsters
