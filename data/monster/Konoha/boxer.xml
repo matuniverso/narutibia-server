@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Boxer" nameDescription="a Boxer" race="blood" experience="75000" speed="400" manacost="390">
-	<health now="25000" max="25000" />
+<monster name="Boxer" nameDescription="a Boxer" race="blood" experience="10000" speed="300" manacost="390">
+	<health now="13000" max="13000" />
 	<look type="1268" head="113" body="120" legs="95" feet="115" corpse="11236" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
@@ -20,8 +20,8 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="1000" min="-200" max="-250" />
-		<attack name="impact" interval="1000" range="1" min="-100" max="-150" chance="20" />
+		<attack name="melee" interval="1000" min="-300" max="-450" />
+		<attack name="impact" interval="1000" range="1" chance="20" />
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<elements>

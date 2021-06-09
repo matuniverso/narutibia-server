@@ -4,13 +4,12 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, 24)
 combat:setParameter(COMBAT_PARAM_BLOCKARMOR, true)
 
 function onGetFormulaValues(player, level, magicLevel)
-	local distanceSkill = player:getEffectiveSkillLevel(SKILL_DISTANCE)
-	local min = (level / 5) + distanceSkill
-	local max = (level / 5) + distanceSkill + 200
+	local min = (level * 15) + (magicLevel * 15)
+	local max = (level * 15) + (magicLevel * 15) + 1000
 	return -min, -max
 end
 
-combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
+combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 function onCastSpell(creature, variant)
 	local target = Creature(variant:getNumber())

@@ -9,7 +9,7 @@ condition:setParameter(CONDITION_PARAM_TICKS, seconds * 1000)
 condition:setParameter(CONDITION_PARAM_SKILL_MELEE, 10)
 condition:setParameter(CONDITION_PARAM_SKILL_DISTANCE, 10)
 condition:setParameter(CONDITION_PARAM_SKILL_SHIELD, 10)
-condition:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 10)
+condition:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 30)
 condition:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 combat:addCondition(condition)
 
@@ -19,10 +19,15 @@ function onCastSpell(creature, variant)
         return false
     end
 
+    local pos = creature:getPosition()
+    pos = Position(pos.x + 2, pos.y, pos.z)
+    pos:sendMagicEffect(623)
+
+
     for i = 0, seconds do
         addEvent(function ()
             local pos = creature:getPosition()
-            pos:sendMagicEffect(357)
+            pos:sendMagicEffect(615)
         end, i * 1000)
     end
     return combat:execute(creature, variant)

@@ -1,7 +1,7 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 combat:setArea(createCombatArea(AREA_SQUARE1X1))
-combat:setFormula(COMBAT_FORMULA_DAMAGE, -1000, 0, -2000, 0)
+combat:setFormula(COMBAT_FORMULA_DAMAGE, -500, 0, -1000, 0)
 
 function onCastSpell(creature, variant)
     local pos = creature:getPosition()

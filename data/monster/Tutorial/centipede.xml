@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Centipede" nameDescription="a Centipede" race="venom" experience="7500" speed="350" manacost="390">
-	<health now="6000" max="6000" />
+<monster name="Centipede" nameDescription="a Centipede" race="venom" experience="2200" speed="350" manacost="390">
+	<health now="4000" max="4000" />
 	<look type="239" head="113" body="120" legs="95" feet="115" corpse="11236" />
 	<targetchange interval="4000" chance="10" />
 	<flags>

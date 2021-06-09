@@ -285,12 +285,12 @@
 	<item id="13603" article="a" name="Bandit Hat">
 		<attribute key="weight" value="25" />
 		<attribute key="armor" value="5" />
-		<attribute key="healthGain" value="25" />
+		<attribute key="healthGain" value="100" />
 		<attribute key="healthTicks" value="1000" />
-		<attribute key="manaGain" value="25" />
+		<attribute key="manaGain" value="100" />
 		<attribute key="manaTicks" value="1000" />
 		<attribute key="slotType" value="head" />
-		<attribute key="description" value="Health 25/s an Chakra 25/s" />
+		<attribute key="description" value="Health 100/s an Chakra 100/s" />
 	</item>
 
 	<item id="13604" article="a" name="Bandit Coat">
@@ -307,12 +307,12 @@
 	<item id="13605" article="a" name="Bandit Legs">
 		<attribute key="weight" value="25" />
 		<attribute key="armor" value="5" />
-		<attribute key="healthGain" value="50" />
+		<attribute key="healthGain" value="10" />
 		<attribute key="healthTicks" value="1000" />
-		<attribute key="manaGain" value="50" />
+		<attribute key="manaGain" value="100" />
 		<attribute key="manaTicks" value="1000" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="description" value="Health 50/s an Chakra 50/s" />
+		<attribute key="description" value="Health 100/s an Chakra 100/s" />
 	</item>
 
 	<item id="13606" article="a" name="Bandit Boots">
@@ -328,13 +328,13 @@
 
 	<item id="12716" article="a" name="Kunai">
 		<attribute key="weight" value="100" />
-		<attribute key="attack" value="10" />
+		<attribute key="attack" value="300" />
 		<attribute key="weaponType" value="club" />
 	</item>
 
 	<item id="12736" article="a" name="Shuriken">
 		<attribute key="weight" value="100" />
-		<attribute key="attack" value="10" />
+		<attribute key="attack" value="300" />
 		<attribute key="weaponType" value="distance" />
         <attribute key="hitChance" value="100" />
 		<attribute key="range" value="7" />

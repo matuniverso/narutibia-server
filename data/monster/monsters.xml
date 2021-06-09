@@ -4,10 +4,11 @@
     <monster name="Bee" file="Tutorial/bee.xml" />
     <monster name="Gamakichi" file="Tutorial/gamakichi.xml" />
     <monster name="Lizard" file="Tutorial/lizard.xml" />
-    <monster name="Ninja" file="Tutorial/ninja.xml" />
-    <monster name="Ninja2" file="Tutorial/ninja2.xml" />
+    <monster name="Ninja Melee" file="Tutorial/ninja_melee.xml" />
+    <monster name="Ninja Distance" file="Tutorial/ninja_distance.xml" />
     <monster name="Shark" file="Tutorial/shark.xml" />
     <monster name="Centipede" file="Tutorial/centipede.xml" />
+    <monster name="Frog" file="Tutorial/frog.xml" />
 
     <!-- Konoha -->
     <monster name="Red Samurai" file="Konoha/red_samurai.xml" />
