@@ -39,5 +39,3 @@
     <instant name="kyuubi chakra" words="Kyuubi Chakra" level="80" mana="100" needtarget="0" blockwalls="0" script="vocation/naruto/kyuubi_chakra.lua"/>
     <instant name="bijuu dama" words="Bijuu Dama" level="80" mana="800" range="6" needtarget="1" blockwalls="1" script="vocation/naruto/bijuu_dama.lua"/>
 </spells>
-
-
