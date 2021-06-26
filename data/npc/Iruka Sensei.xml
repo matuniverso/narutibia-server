@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc name="Iruka Sensei" script="gensai.lua" walkinterval="0" floorchange="0">
 	<look type="1270" />
+    <parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|. Para se tornar um Genin, você precisa passar por alguns desafios. Digite {help} quando estiver preparado." />
+	</parameters>
 </npc>

@@ -34,6 +34,19 @@ if Modules == nil then
 
 	StdModule = {}
 
+    function StdModule.say(cid, message, keywords, parameters, node)
+		local npcHandler = parameters.npcHandler
+		if npcHandler == nil then
+			error("StdModule.say called without any npcHandler instance.")
+		end
+
+        if not npcHandler:isFocused(cid) then
+			return false
+		end
+
+		return true
+	end
+
 	-- These callback function must be called with parameters.npcHandler = npcHandler in the parameters table or they will not work correctly.
 	-- Notice: The members of StdModule have not yet been tested. If you find any bugs, please report them to me.
 	-- Usage:
@@ -162,7 +175,7 @@ if Modules == nil then
 		local currentOutfit = outfit.lookType
 
 		local duration = 17
-        local speed = 180 
+        local speed = 180
 
 		if player:isPzLocked() then
 			npcHandler:say("Desculpe, você precisa estar fora de batalha para viajar no meu barco.", cid)
